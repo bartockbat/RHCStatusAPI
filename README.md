@@ -11,4 +11,9 @@ Directions for using this script:
 ``{``
 ``    "rebuild": "false"``
 ``}``
+8. If your containers *freshness* is in question, you will see:
+``{``
+``    "rebuild": "true"``
+``}``
+
 
