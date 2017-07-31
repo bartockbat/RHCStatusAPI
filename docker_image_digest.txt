@@ -1,0 +1,2 @@
+#Copy/paste your docker image digest here
+#sha256:xxxxDDDDDccccVVVVaaaaBBB
