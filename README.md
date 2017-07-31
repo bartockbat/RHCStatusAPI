@@ -1,6 +1,8 @@
 # RHCStatusAPI
 Directions for using this script:
 
+You would need the httpie application - this script uses it- https://httpie.org/doc#linux 
+
 1. Clone this repo on your local machine - git clone https://github.com/bartockbat/RHCStatusAPI.git
 2. You will need to modify 3 files to have this script work - *pid.txt, docker_image_digest.txt, and secret.txt*
 3. For the **pid.txt**, you would need to put your pxxxYYYYzzzzAAAAbbbbCCC id in there - you will find it in your *project*.
