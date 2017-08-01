@@ -23,4 +23,4 @@ PID=$(<pid.txt)
 SECRET=$(<secret.txt)
 DOCKER_IMAGE_DIGEST=$(<docker_image_digest.txt)
 
-http --pretty=all  POST https://connect.redhat.com/api/container/status -- pid=$PID secret=$SECRET docker_image_digest=$DOCKER_IMAGE_DIGES
+http --pretty=all  POST https://connect.redhat.com/api/container/status -- pid=$PID secret=$SECRET docker_image_digest=$DOCKER_IMAGE_DIGEST
