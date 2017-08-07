@@ -11,11 +11,14 @@ You would need the httpie application - this script uses it- https://httpie.org/
 6. Once you have put these values in these three files, run the script **container-status.sh**
 7. If your container passes (does not need to be refreshed) you will see:
 ``{``
-``    "rebuild": "false"``
+``    "rebuild": "none"``
 ``}``
 8. If your container *freshness* is in question, you will see:
 ``{``
-``    "rebuild": "true"``
+``    "rebuild": "recommended"``
 ``}``
-
+9. If your container *freshness* is out of date, you would see:
+``{``
+``    "rebuild": "mandatory"``
+``}``
 
