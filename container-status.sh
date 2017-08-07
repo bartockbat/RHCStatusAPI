@@ -16,7 +16,7 @@
 #This means your image is up to date and does not need to be rebuilt
 #however, if you see
 
-#"rebuild":"true"
+#"rebuild":"recommended"
 # You should rebuild and re-push/publish your image
 
 PID=$(<pid.txt)
