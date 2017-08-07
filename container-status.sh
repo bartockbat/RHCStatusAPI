@@ -10,7 +10,7 @@
 #if you see this:
 
 #{
-#    "rebuild": "false"
+#    "rebuild": "none"
 #}
 
 #This means your image is up to date and does not need to be rebuilt
